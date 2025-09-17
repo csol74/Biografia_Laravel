@@ -219,7 +219,6 @@
     </div>
 
     <div class="nav-footer">
-      <a href="/" class="nav-btn secondary">🏠 Inicio</a>
       <a href="/infancia" class="nav-btn primary">👶 Mi Infancia →</a>
     </div>
     <br>
