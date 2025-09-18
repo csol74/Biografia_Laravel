@@ -113,6 +113,22 @@
         personal y construcción de amistades.</p>
       </div>
     </div>
+
+    <!-- EDUCACIÓN PROFESIONAL -->
+     <div class="education-card">
+      <div class="education-header">
+        <div class="education-icon">🎓</div>
+        <div class="education-info">
+          <h3>Educación Superior</h3>
+          <div class="institution">Universidad Autónoma de Bucaramanga</div>
+          <div class="period">2023 - 2027</div>
+        </div>
+      </div>
+      
+      <div class="details">
+        <p><strong style="color:var(--accent-1);">Carrera:</strong> Ingeniería de Sistemas</p>
+        <p><strong style="color:var(--accent-1);">Semestre actual:</strong> 5 semestre</p>
+        
   </div>
 </body>
 </html>
