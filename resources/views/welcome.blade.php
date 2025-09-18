@@ -157,6 +157,8 @@
             <a href="/adolescencia">Adolescencia</a>
             <a href="/actualidad">Actualidad</a>
             <a href="/metas">Metas</a>
+            <a href="/experiencia">Experiencia</a>
+
           </nav>
         </aside>
 
