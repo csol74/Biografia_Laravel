@@ -131,9 +131,7 @@
       transition:transform .3s ease;
     }
 
-    .skill-card:hover{
-      transform:translateY(-4px);
-    }
+    .skill-card:hover{transform:translateY(-4px)}
 
     .skill-header{
       display:flex;
@@ -167,9 +165,7 @@
       font-size:0.95rem;
     }
 
-    .progress-container{
-      margin-bottom:12px;
-    }
+    .progress-container{margin-bottom:12px}
 
     .progress-label{
       display:flex;
@@ -259,13 +255,21 @@
     }
 
     .nav-footer{
-      display:flex;justify-content:center;gap:16px;margin-top:50px;
+      display:flex;
+      justify-content:center;
+      gap:16px;
+      margin-top:50px;
     }
 
     .nav-btn{
-      display:inline-flex;align-items:center;gap:8px;
-      padding:12px 24px;border-radius:12px;text-decoration:none;
-      font-weight:600;transition:all .18s ease;
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:12px 24px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:600;
+      transition:all .18s ease;
     }
 
     .nav-btn.primary{
@@ -273,11 +277,15 @@
       color:#021024;
     }
     .nav-btn.secondary{
-      background:rgba(255,255,255,0.05);color:var(--text);
+      background:rgba(255,255,255,0.05);
+      color:var(--text);
       border:1px solid rgba(255,255,255,0.06);
     }
 
-    .nav-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,0.2)}
+    .nav-btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    }
 
     @media (max-width:768px){
       .skills-grid{grid-template-columns:1fr}
@@ -313,16 +321,13 @@
               <div class="skill-name">🐍 Python</div>
               <div class="skill-level">Avanzado</div>
             </div>
-            <div class="skill-description">
-              [Describe tu experiencia con Python: proyectos realizados, frameworks usados, etc.]
-            </div>
             <div class="progress-container">
               <div class="progress-label">
                 <span>Competencia</span>
-                <span>75%</span>
+                <span>80%</span>
               </div>
               <div class="progress-bar">
-                <div class="progress-fill" style="width: 85%"></div>
+                <div class="progress-fill" style="width: 80%"></div>
               </div>
             </div>
             <div class="tools-list">
@@ -336,9 +341,6 @@
               <div class="skill-name">⚡ JavaScript</div>
               <div class="skill-level">Intermedio</div>
             </div>
-            <div class="skill-description">
-              [Tu experiencia con JavaScript: frontend, backend, frameworks, etc.]
-            </div>
             <div class="progress-container">
               <div class="progress-label">
                 <span>Competencia</span>
@@ -349,7 +351,6 @@
               </div>
             </div>
             <div class="tools-list">
-              <span class="tool-tag">React</span>
               <span class="tool-tag">Node.js</span>
             </div>
           </div>
@@ -360,7 +361,7 @@
               <div class="skill-level">Principiante</div>
             </div>
             <div class="skill-description">
-              [Tu experiencia con PHP: proyectos web, frameworks utilizados]
+              Proyectos web, frameworks utilizados
             </div>
             <div class="progress-container">
               <div class="progress-label">
@@ -395,7 +396,7 @@
               <div class="skill-level">Avanzado</div>
             </div>
             <div class="skill-description">
-              [Tu experiencia con MySQL: diseño de esquemas, optimización, consultas complejas]
+              Diseño de esquemas, optimización, consultas complejas
             </div>
             <div class="progress-container">
               <div class="progress-label">
@@ -407,6 +408,26 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- HABILIDADES BLANDAS -->
+      <div class="category-section">
+        <div class="category-header">
+          <div class="category-icon">💡</div>
+          <div class="category-title">
+            <h3>Habilidades Blandas</h3>
+            <p class="category-subtitle">Competencias interpersonales</p>
+          </div>
+        </div>
+        
+        <div style="color:var(--muted);line-height:1.8;font-size:1rem;">
+          <ul style="margin:0;padding-left:20px;">
+            <li><strong style="color:var(--accent-1);">Comunicación efectiva</strong></li>
+            <li><strong style="color:var(--accent-1);">Trabajo en equipo</strong></li>
+            <li><strong style="color:var(--accent-1);">Resolución de problemas</strong></li>
+            <li><strong style="color:var(--accent-1);">Adaptabilidad</strong></li>
+          </ul>
         </div>
       </div>
     </div>
