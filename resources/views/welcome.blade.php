@@ -195,7 +195,7 @@
             </article>
           </div>
 
-          <div class="card-footer">© 2025 @CesarSolano_Unab</div>
+          <div class="card-footer"> CesarSolano_@Unab ©2025</div>
         </section>
       </div>
     </div>
