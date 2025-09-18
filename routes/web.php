@@ -26,3 +26,6 @@ Route::get('/experiencia', function () {
 Route::get('/skills', function () {
     return view('skills');
 });
+Route::get('/academy', function () {
+    return view('academy');
+});

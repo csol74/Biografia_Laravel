@@ -159,6 +159,7 @@
             <a href="/metas">Metas</a>
             <a href="/experiencia">Experiencia</a>
             <a href="/skills">Habilidades</a>
+            <a href="/academy">Academia</a>
 
           </nav>
         </aside>
