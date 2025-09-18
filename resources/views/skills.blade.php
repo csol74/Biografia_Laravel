@@ -430,6 +430,25 @@
           </ul>
         </div>
       </div>
+      <!-- HABILIDADES ADICIONALES -->
+    <div class="category-section">
+      <div class="category-header">
+        <div class="category-icon">🎨</div>
+        <div class="category-title">
+          <h3>Habilidades Adicionales</h3>
+          <p class="category-subtitle">Talentos y pasatiempos</p>
+        </div>
+      </div>
+      
+      <div style="color:var(--muted);line-height:1.8;font-size:1rem;">
+        <ul style="margin:0;padding-left:20px;">
+          <li><strong style="color:var(--accent-1);">Deportes:</strong> Voleibol, Baloncesto, Futbol</li>
+          <li><strong style="color:var(--accent-1);">Arte/Diseño:</strong> Dibujo, Origami</li>
+          <li><strong style="color:var(--accent-1);">Música:</strong> Piano, Flauta</li>
+          <li><strong style="color:var(--accent-1);">Idiomas:</strong> Ingles costeño XD</li>
+        </ul>
+      </div>
+    </div>
     </div>
   </div>
 </body>
