@@ -268,6 +268,26 @@
             representando una valiosa primera aproximación al trabajo en el ámbito
             del desarrollo de software.
           </div>
+          <div class="job-header">
+            <div class="job-title">
+              <h3>SandBox</h3>
+          <div class="job-description">
+           Durante mi formación, en el semestre pasado también trabajé en el desarrollo de Sandbox, un videojuego
+            creado en Unity, utilizando Maya para la creación de personajes y objetos.
+            Aunque el proyecto representó un gran reto debido al poco trabajo colaborativo
+            del equipo, me permitió aprender a manejar situaciones de estrés y, sobre todo,
+            adquirir conocimientos prácticos sobre los principios básicos del desarrollo
+            de videojuegos. Esta experiencia me ayudó a fortalecer mi creatividad, mi
+            disciplina y mi capacidad de resolución de problemas dentro de un entorno
+            de desarrollo real.
+          </div>
+          
+       
+
+    </div>
+  </div>
+       
+
     </div>
   </div>
 </body>
