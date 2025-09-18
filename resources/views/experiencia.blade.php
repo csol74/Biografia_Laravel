@@ -158,86 +158,12 @@
       margin-bottom:16px;
     }
 
-    .achievements{
-      margin-top:16px;
-    }
-
-    .achievements h4{
-      color:var(--accent-1);
-      margin:0 0 8px 0;
-      font-size:1rem;
-      font-weight:600;
-    }
-
-    .achievements ul{
-      margin:0;
-      padding-left:20px;
-      color:var(--muted);
-    }
-
-    .achievements li{
-      margin-bottom:4px;
-      line-height:1.5;
-    }
-
-    .skills-section{
-      background:linear-gradient(180deg,rgba(255,255,255,0.04),rgba(255,255,255,0.02));
-      border-radius:var(--radius);
-      padding:28px;
-      border:1px solid rgba(255,255,255,0.06);
-      backdrop-filter:blur(12px);
-      position:relative;
-      overflow:hidden;
-    }
-
-    .skills-section::before{
-      content:'';
-      position:absolute;
-      top:0;
-      left:0;
-      right:0;
-      height:3px;
-      background:linear-gradient(90deg,var(--accent-2),var(--accent-3));
-    }
-
-    .skills-section h3{
-      display:flex;
-      align-items:center;
-      gap:12px;
-      margin:0 0 20px 0;
-      font-size:1.4rem;
-      font-weight:700;
-      color:var(--text);
-    }
-
-    .nav-footer{
-      display:flex;justify-content:center;gap:16px;margin-top:50px;
-    }
-
-    .nav-btn{
-      display:inline-flex;align-items:center;gap:8px;
-      padding:12px 24px;border-radius:12px;text-decoration:none;
-      font-weight:600;transition:all .18s ease;
-    }
-
-    .nav-btn.primary{
-      background:linear-gradient(90deg,var(--accent-1),var(--accent-2));
-      color:#021024;
-    }
-    .nav-btn.secondary{
-      background:rgba(255,255,255,0.05);color:var(--text);
-      border:1px solid rgba(255,255,255,0.06);
-    }
-
-    .nav-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,0.2)}
-
     @media (max-width:768px){
       .timeline{padding-left:30px}
       .timeline::before{left:15px}
       .experience-item::before{left:-40px;width:16px;height:16px}
       .job-header{flex-direction:column;align-items:flex-start;gap:8px}
       .header h1{font-size:2rem}
-      .nav-footer{flex-direction:column;align-items:center}
     }
   </style>
 </head>
@@ -251,43 +177,68 @@
     </div>
 
     <div class="timeline">
+      <!-- Proyecto 1 -->
       <div class="experience-item">
         <div class="experience-card">
           <div class="job-header">
             <div class="job-title">
               <h3>EDSAR</h3>
-          <div class="job-description">
-           Aunque aún no he tenido una experiencia laboral formal, considero que uno
-            de los proyectos más significativos que he desarrollado durante mis estudios
-            fue una aplicación de comidas en Android Studio con Kotlin. Esta app permitía
-            al usuario ingresar los ingredientes que tenía disponibles y, a partir de ellos,
-            le sugería diferentes recetas. Además, incluía consejos prácticos de cocina
-            y una base de datos con una amplia variedad de recetas, lo que enriquecía
-            la experiencia del usuario. Este proyecto me permitió fortalecer mis habilidades
-            en programación, manejo de bases de datos y diseño de interfaces móviles,
-            representando una valiosa primera aproximación al trabajo en el ámbito
-            del desarrollo de software.
+            </div>
           </div>
+          <div class="job-description">
+            Aunque aún no he tenido una experiencia laboral formal, considero
+            que uno de los proyectos más significativos que he desarrollado
+            durante mis estudios fue una aplicación de comidas en Android
+            Studio con Kotlin. Esta app permitía al usuario ingresar los
+            ingredientes que tenía disponibles y, a partir de ellos, le
+            sugería diferentes recetas. Además, incluía consejos prácticos
+            de cocina y una base de datos con una amplia variedad de recetas,
+            lo que enriquecía la experiencia del usuario. Este proyecto me
+            permitió fortalecer mis habilidades en programación, manejo de
+            bases de datos y diseño de interfaces móviles, representando una
+            valiosa primera aproximación al trabajo en el ámbito del desarrollo de software.
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="experience-item">
+        <div class="experience-card">
           <div class="job-header">
             <div class="job-title">
-              <h3>SandBox</h3>
-          <div class="job-description">
-           Durante mi formación, en el semestre pasado también trabajé en el desarrollo de Sandbox, un videojuego
-            creado en Unity, utilizando Maya para la creación de personajes y objetos.
-            Aunque el proyecto representó un gran reto debido al poco trabajo colaborativo
-            del equipo, me permitió aprender a manejar situaciones de estrés y, sobre todo,
-            adquirir conocimientos prácticos sobre los principios básicos del desarrollo
-            de videojuegos. Esta experiencia me ayudó a fortalecer mi creatividad, mi
-            disciplina y mi capacidad de resolución de problemas dentro de un entorno
-            de desarrollo real.
+              <h3>Sandbox</h3>
+            </div>
           </div>
-          
-       
+          <div class="job-description">
+            Durante mi formación, en el semestre pasado también trabajé en el desarrollo de
+            Sandbox, un videojuego creado en Unity, utilizando Maya para la creación de personajes
+            y objetos. Aunque el proyecto representó un gran reto debido al poco trabajo colaborativo
+            del equipo, me permitió aprender a manejar situaciones de estrés y, sobre todo, adquirir
+            conocimientos prácticos sobre los principios básicos del desarrollo de videojuegos.
+            Esta experiencia me ayudó a fortalecer mi creatividad, mi disciplina y mi capacidad
+            de resolución de problemas dentro de un entorno de desarrollo real.
+          </div>
+        </div>
+      </div>
 
-    </div>
-  </div>
-       
-
+      <!-- Proyecto 3 -->
+      <div class="experience-item">
+        <div class="experience-card">
+          <div class="job-header">
+            <div class="job-title">
+              <h3>AirProject</h3>
+            </div>
+          </div>
+          <div class="job-description">
+            Otro proyecto relevante fue AirProject, desarrollado en la materia de Inteligencia Artificial.
+            En este trabajo se realizó un proceso de limpieza y entrenamiento de datos mediante diferentes
+            métodos, con el objetivo de identificar la calidad del aire y clasificarlo en categorías como
+            bueno, moderado o malo. Gracias a esta experiencia, pude comprender las bases del funcionamiento
+            de los modelos de IA, desde la preparación de datos hasta la interpretación de resultados, lo
+            que me permitió adentrarme en el mundo del aprendizaje automático y sus aplicaciones prácticas.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
