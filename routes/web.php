@@ -11,3 +11,6 @@ Route::get('/origen', function () {
 Route::get('/infancia', function () {
     return view('infancia');
 });
+Route::get('/adolescencia', function () {
+    return view('adolescencia');
+});

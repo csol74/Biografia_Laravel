@@ -189,7 +189,7 @@
 </head>
 <body>
   <div class="container">
-    <a href="/origen" class="back-btn">← Mi Origen</a>
+    <a href="/" class="back-btn">← Volver al inicio</a>
     
     <div class="header">
       <h1>👶 Mi Infancia</h1>
