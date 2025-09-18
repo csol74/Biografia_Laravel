@@ -158,6 +158,7 @@
             <a href="/actualidad">Actualidad</a>
             <a href="/metas">Metas</a>
             <a href="/experiencia">Experiencia</a>
+            <a href="/skills">Habilidades</a>
 
           </nav>
         </aside>

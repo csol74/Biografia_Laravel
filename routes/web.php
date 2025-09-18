@@ -23,3 +23,6 @@ Route::get('/metas', function () {
 Route::get('/experiencia', function () {
     return view('experiencia');
 });
+Route::get('/skills', function () {
+    return view('skills');
+});
